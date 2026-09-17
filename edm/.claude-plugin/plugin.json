@@ -1,0 +1,17 @@
+{
+  "name": "omnimay-edm-expert",
+  "version": "1.0.0",
+  "description": "EDM cold outreach expert: calibrate your customer profile (ICP), search company lists across the web, enrich email contacts, and write & send personalized first-touch emails.",
+  "author": {
+    "name": "Omnimay"
+  },
+  "license": "MIT",
+  "keywords": ["sales", "EDM", "outbound", "cold-email", "ICP", "lead-generation", "B2B", "chinese"],
+  "skills": [
+    "./skills/icp-calibration",
+    "./skills/icp-company-search",
+    "./skills/lead-enrichment",
+    "./skills/cold-email",
+    "./skills/prospect-landing-research"
+  ]
+}

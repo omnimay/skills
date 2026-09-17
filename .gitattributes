@@ -1,0 +1,16 @@
+# Normalize line endings: repo stores LF, working copy per OS
+* text=auto
+
+# Markdown / config always LF in repo
+*.md text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+
+# PowerShell scripts keep CRLF (Windows tooling)
+*.ps1 text eol=crlf
+
+# Binaries
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary

@@ -1,0 +1,13 @@
+{
+  "name": "omnimay-foundation",
+  "version": "0.1.0",
+  "description": "Use when answering the user's question requires background records of a customer (company/deal/contact/past activities/documents) — look them up in the dealcenter records first; or when the user explicitly asks to record/write information back to customer records. Lookup is auxiliary — silently continue when nothing is found; write only upon the user's explicit request or confirmation.",
+  "author": {
+    "name": "Omnimay"
+  },
+  "license": "MIT",
+  "keywords": ["crm", "dealcenter", "mcp", "customer-records", "account-management"],
+  "skills": [
+    "./dealcenter"
+  ]
+}

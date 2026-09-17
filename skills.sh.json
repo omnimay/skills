@@ -1,0 +1,47 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "AE Deal-Closing Expert",
+      "description": "For AEs (Account Executives): deal qualification, visit proposals, contract signing, negotiation & pricing, deal progression.",
+      "skills": [
+        "qualify-requirement-validation",
+        "pitch-visit-proposal",
+        "clinch-contract-signing",
+        "clinch-negotiation-pricing",
+        "clinch-progression-strategy"
+      ]
+    },
+    {
+      "title": "CSM Customer Success Expert",
+      "description": "For CSMs (Customer Success Managers): business reviews, advocacy management, renewals, expansion, referrals, churn recovery.",
+      "skills": [
+        "success-business-review",
+        "success-renewal-management",
+        "success-expansion",
+        "success-referral-generation",
+        "success-churn-recovery",
+        "success-advocacy-management"
+      ]
+    },
+    {
+      "title": "EDM Cold Outreach Expert",
+      "description": "For outbound B2B acquisition: ICP calibration, company search, lead enrichment, cold email writing, account-entry research.",
+      "skills": [
+        "icp-calibration",
+        "icp-company-search",
+        "lead-enrichment",
+        "cold-email",
+        "prospect-landing-research"
+      ]
+    },
+    {
+      "title": "Foundation Data",
+      "description": "DealCenter customer-record lookup & write-back (requires OmniMay MCP configured on the connectors page).",
+      "skills": [
+        "dealcenter"
+      ]
+    }
+  ]
+}

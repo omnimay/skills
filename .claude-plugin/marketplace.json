@@ -1,0 +1,30 @@
+{
+  "name": "omnimay-skills",
+  "version": "0.1.0",
+  "description": "Omnimay sales expert skill kits for AI agents",
+  "owner": {
+    "name": "Omnimay"
+  },
+  "plugins": [
+    {
+      "name": "omnimay-ae-expert",
+      "source": "./ae",
+      "description": "AE deal-closing expert: deal qualification, visit proposals, contract signing, negotiation & pricing, deal progression"
+    },
+    {
+      "name": "omnimay-csm-expert",
+      "source": "./csm",
+      "description": "CSM customer success expert: business reviews, advocacy management, renewals, expansion, referrals, churn recovery"
+    },
+    {
+      "name": "omnimay-edm-expert",
+      "source": "./edm",
+      "description": "EDM cold outreach expert: ICP calibration, company search, lead enrichment, cold email writing, account-entry research"
+    },
+    {
+      "name": "omnimay-foundation",
+      "source": "./foundation",
+      "description": "Foundation capabilities: DealCenter customer-record lookup & write-back"
+    }
+  ]
+}

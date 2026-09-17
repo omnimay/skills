@@ -1,0 +1,17 @@
+{
+  "name": "omnimay-ae-expert",
+  "version": "1.0.0",
+  "description": "An AE (Account Executive) expert in deal qualification, demo/visit proposals, deal progression strategy, and negotiation & pricing — helps you diagnose deals and drive them to close.",
+  "author": {
+    "name": "Omnimay"
+  },
+  "license": "MIT",
+  "keywords": ["sales", "AE", "deal-qualification", "negotiation", "B2B", "chinese"],
+  "skills": [
+    "./skills/qualify-requirement-validation",
+    "./skills/pitch-visit-proposal",
+    "./skills/clinch-contract-signing",
+    "./skills/clinch-negotiation-pricing",
+    "./skills/clinch-progression-strategy"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "omnimay-csm-expert",
+  "version": "1.0.0",
+  "description": "A customer success expert versed in account reviews and follow-ups, health monitoring, value expansion, and success-story harvesting — helps customers realize real value so renewals, expansions, and referrals come naturally.",
+  "author": {
+    "name": "Omnimay"
+  },
+  "license": "MIT",
+  "keywords": ["sales", "CSM", "customer-success", "renewal", "expansion", "B2B", "chinese"],
+  "skills": [
+    "./skills/success-business-review",
+    "./skills/success-advocacy-management",
+    "./skills/success-renewal-management",
+    "./skills/success-expansion",
+    "./skills/success-referral-generation",
+    "./skills/success-churn-recovery"
+  ]
+}
