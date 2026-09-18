@@ -6,6 +6,16 @@ Omnimay distills the daily work of sales roles (AE/CSM/EDM) into AI-callable ski
 
 Each skill is a folder (`SKILL.md` + reference material). Once installed into your AI tool, the AI automatically loads the playbook in matching sales scenarios — no prompt writing required.
 
+## Quick install
+
+| Platform | Command |
+|---|---|
+| **Claude Code** | `/plugin marketplace add omnimay/skills`, then `/plugin install omnimay-ae-expert` (pick your role) |
+| **Codex · Cursor · Gemini CLI · 70+ agents** | `npx skills add omnimay/skills` |
+| **Any tool (manual)** | `git clone https://github.com/omnimay/skills.git`, copy the `skills/<name>/` folders you need |
+
+Find your platform in the left column, copy the command, done. Details in [Installation](#installation).
+
 ## What's inside
 
 This repository is a marketplace (`.claude-plugin/marketplace.json`) containing 4 plugins, one per sales-role expert:
@@ -21,7 +31,15 @@ This repository is a marketplace (`.claude-plugin/marketplace.json`) containing 
 
 ## Installation
 
-### Option 1: Claude Code (plugin install)
+### Option 1: One-click install (recommended, any AI tool)
+
+```bash
+npx skills add omnimay/skills
+```
+
+The [skills.sh](https://skills.sh) CLI works with Claude Code, Cursor, Codex, Gemini CLI, and other agents that support Agent Skills. It pulls the repo straight from GitHub and installs the skills into your tool's skills directory — pick all or just the ones you need when prompted.
+
+### Option 2: Claude Code (plugin install)
 
 ```bash
 # Run inside Claude Code
@@ -34,7 +52,7 @@ This repository is a marketplace (`.claude-plugin/marketplace.json`) containing 
 /plugin install omnimay-foundation
 ```
 
-### Option 2: Universal (any AI tool that supports SKILL.md)
+### Option 3: Manual (any AI tool that supports SKILL.md)
 
 ```bash
 git clone https://github.com/omnimay/skills.git
@@ -42,7 +60,7 @@ git clone https://github.com/omnimay/skills.git
 
 Copy the `<plugin>/skills/<skill>/` folders you need into your tool's skills directory. Claude Code users can also install locally: run `/plugin marketplace add .` inside the repo, then `/plugin install omnimay-ae-expert`.
 
-> The flat `skills/<name>/` folders at the repo root are plain SKILL.md copies of all 17 skills (for `npx skills add` and tools that read SKILL.md directly); `<plugin>/skills/<name>/` is the plugin packaging. Both are identical in content. Use Option 1 to install plugins, or copy individual skills from `skills/<name>/`.
+> The flat `skills/<name>/` folders at the repo root are plain SKILL.md copies of all 17 skills (used by Option 1 and tools that read SKILL.md directly); `<plugin>/skills/<name>/` is the plugin packaging. Both are identical in content.
 
 After installation, each skill registers automatically via its `SKILL.md` `description`, and the AI invokes it in matching scenarios.
 
